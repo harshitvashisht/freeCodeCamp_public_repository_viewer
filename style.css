@@ -1,0 +1,99 @@
+body {
+  border: 1px solid blue;
+  
+}
+
+#repoList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  column-gap: 10px;
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+.repo-box {
+  border: 2px solid blue;
+  padding: 10px;
+ 
+}
+
+.repo-box h2 {
+  margin-top: 0;
+}
+
+.repo-box p {
+  margin-bottom: 5px;
+}
+
+.repo-box a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.repo-box a:hover {
+  text-decoration: underline;
+}
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.pagination button {
+  background-color: #1f74c9;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color: grey;
+}
+
+.pagination button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  padding-bottom: 10px;
+  background-color: #f8f9fa;
+  
+}
+
+header img {
+  width: 100px;
+  height: 100px;
+  border-radius: 1000%;
+  margin-left: 10px;
+
+
+}
+
+header h1 {
+  margin-left: 10px;
+}
+
+header p {
+  margin: 10px;
+}
+
+header a {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 10px;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
